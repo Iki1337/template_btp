@@ -1,0 +1,100 @@
+@charset "utf-8";
+/*BOURDEL Raphaël*/
+
+#case{
+	margin:10px 0;
+	text-align: center;
+}
+
+#case img{
+	width: 70%;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+	border-radius: 20px;
+}
+
+#case img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+/*------------*/
+
+aside{
+	float:left;
+	width: 30%
+}
+
+aside li{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+background: rgb(255,168,76); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+
+	list-style-type: none;
+	padding: 10px 0 10px 15%;
+	margin-bottom: 15px;
+	border: 1px solid rgba(127,63,0,1.00);
+	border-radius: 5px;
+	font-family: OPR;
+}
+
+aside li:hover{
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffbf7b+0,ff9c4b+100 */
+background: rgb(255,191,123); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,191,123,1) 0%, rgba(255,156,75,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,191,123,1) 0%,rgba(255,156,75,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,191,123,1) 0%,rgba(255,156,75,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbf7b', endColorstr='#ff9c4b',GradientType=0 ); /* IE6-9 */
+
+}
+
+aside a{
+	text-decoration: none;
+	color: white;
+	background-image: url(../medias/realisations/images/ordibessin.png);
+	background-repeat: no-repeat;
+	padding-left: 20px
+}
+
+#case{
+	float: right;
+	text-align: center;
+	width : 65%;
+	overflow: hidden;
+	height: 600px;
+}
+
+#case h3{
+	font-family: BUI;
+	font-size:30px
+}
+
+#case h4{
+	font-family: CPZ;
+	font-size:30px
+}
+
+#case ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+#case p{
+	margin: 20px;
+	font-family: OPR;
+}
+
+#case article{
+	margin-bottom: 1000px;
+}
+#case li{
+	font-size: 20px;
+	font-family: PWM;
+	font-style: italic;
+	font-weight: bold;
+}
